@@ -1,0 +1,31 @@
+
+/*.service-data{
+
+  display:grid;
+}*/
+.certifications__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.certifications__content {
+
+    position: relative;
+    padding: 0.5rem 0.5rem 0.75rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+
+}
+
+.certifications__content:hover {
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.certifications__title {
+    text-align: center;
+    font-size: 105%;
+
+    font-weight: var(--font-medium);
+}
+
