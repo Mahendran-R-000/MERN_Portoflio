@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ This project is an admin dashboard built using React.js to manage  data related to portfolio.It features a secure login system with email and password authentication using Axios, and redirects users to the dashboard upon successful login. The dashboard includes a session timer with automatic logout after 15 minutes, a prompt for session continuation, and a logout button. It provides dedicated sections for managing skills, certifications, qualifications, and projects, allowing users to view, edit, delete, and add new data through an intuitive interface with Axios-driven CRUD operations and real-time popup notifications for success or error messages.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+1. [Components](#components)
+   - AdminLogin Component
+   - Dashboard Component
+   - Skills Component
+   - Certifications Component
+   - Qualifications Component
+   - Projects Component
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-### `npm start`
+## Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## AdminLogin Component
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A component for admin login functionality.Login form with email and password fields, authentication using Axios POST request, and redirection to the dashboard upon successful login.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dashboard Component
 
-### `npm run build`
+The main dashboard component displaying session timer, logout button, and sections for managing skills, certifications, qualifications, and projects.Session timer with automatic logout after 15 minutes, prompt for continuing session, logout functionality, and sections for managing various data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Skills, Certifications, Qualifications, Projects Compoments
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Each component for managing skills,Certifications, Qualifications, Projects data.Display all data in cards with edit and delete options, form for adding new data, Axios requests for CRUD operations, and popup message for success or error.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React.js: Frontend JavaScript library for building user interfaces.
+- Axios: Promise-based HTTP client for making requests to the backend server.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
+To run the project locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository: `git clone https://github.com/Mahendran-R-000/MERN_Portfolio`
+2. Navigate to the project directory: `cd admin-page`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your web browser and visit: `http://localhost:3000`
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+1. Enter email and password, click login button to authenticate, and access the admin dashboard.
+2.  View, Add, edit, delete existing Skills,Certifictaions,Qualifications,Projects,About also.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   
+## Contributing
 
-### Making a Progressive Web App
+Contributions to this project are welcome! If you find any bugs, have feature requests, or want to contribute improvements, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the repository on GitHub.
+2. Create a new branch with a descriptive name: `git checkout -b feature/new-feature` or `bugfix/issue-fix`.
+3. Make your changes and commit them: `git commit -am 'Add new feature'`.
+4. Push your changes to your fork: `git push origin feature/new-feature`.
+5. Submit a pull request to the main repository.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is solely owned by Mahendran R. While it is not licensed under any specific open-source license, it is protected by copyright law. 
 
-### Deployment
+**Usage Guidelines:**
+If you intend to use any part of this project, including its design, code, or assets, please reach out to me (Your Name) for permission. You are welcome to use this project for personal learning and inspiration, but commercial or public use requires explicit permission. Any use of this project must properly attribute the original creator Mahendran R and include a link back to the [original repository](https://github.com/Mahendran-R-000/MERN_Portoflio).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
+For any questions, feedback, or collaboration opportunities, feel free to reach out to me:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: mahendran.06335@gmail.com
+- LinkedIn: [Mahendran R](https://www.linkedin.com/in/mahendran-0-r/)
