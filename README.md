@@ -67,7 +67,7 @@ This project is solely owned by Mahendran R. While it is not licensed under any 
 If you intend to use any part of this project, including its design, code, or assets, please reach out to me (Your Name) for permission. 
 You are welcome to use this project for personal learning and inspiration, but commercial or public use requires explicit permission. 
 Any use of this project must properly attribute the original creator Mahendran R and include a link back to the
-[original repository](https://github.com/Mahendran-R-000/Mahendran-R-000/MERN_Portfolio).
+[original repository](https://github.com/Mahendran-R-000/MERN_Portfolio).
 
 ## Contact
 
